@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Coconut-ch1ken <jms.duck1020@gmail.com>"]
+channels = ["conda-forge"]
+name = "SysML-v2-Release"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyterlab = ">=4.5.7,<5"
+openjdk = ">=21"
+graphviz = ">=14.1.2,<15"
+jupyter-sysml-kernel = ">=0.58.0,<0.59"
