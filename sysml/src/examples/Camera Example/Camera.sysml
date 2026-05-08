@@ -10,5 +10,4 @@ part def Camera {
 	part imagingSubsystem {
 		perform takePicture.shoot;
 	}
-	show Camera
 }
